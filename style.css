@@ -1,0 +1,76 @@
+body {
+      background: linear-gradient(135deg, #B2B1CF, #CC7F02);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .game-box {
+      background: white;
+      color: #333;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .color-word {
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 30px 0;
+    }
+    .btn-color {
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      transition: 0.2s ease-in-out;
+      color: white;
+    }
+    .btn-color:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+    #score {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    #timer {
+      font-weight: bold;
+      color: #CC7F02;
+    }
+    .footer {
+      margin-top: 40px;
+      color: white;
+    }
+    .modal-content {
+      border-radius: 20px;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      border: none;
+    }
+    .modal-header {
+      background-color: #CC7F02;
+      color: white;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .modal-body {
+      color: #333;
+      font-size: 0.95rem;
+    }
+    .modal-footer {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .form-control {
+      border-radius: 12px;
+      padding: 10px;
+    }
+    .btn-primary {
+      background-color: #B2B1CF;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #626181;
+    }
